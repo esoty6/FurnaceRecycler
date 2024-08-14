@@ -1,5 +1,6 @@
 name: FurnaceRecycler
+api: 1.21.1
 api-version: 1.21.1
 main: com.github.esoty6.furnacerecycler.FurnaceRecyclerPlugin
 author: esoty6
-version: ${project.version}
+version: 1.0

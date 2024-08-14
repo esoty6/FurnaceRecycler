@@ -98,7 +98,7 @@ public class CustomRecipes {
       List<ItemStack> resultMaterials = new ArrayList<>();
 
       List<Material> filteredMaterials = materialList.stream()
-          .filter(material -> material.getItemTranslationKey().contains(keyword) && material.isItem()).toList();
+          .filter(material -> material.isItem() && material.getItemTranslationKey().contains(keyword)).toList();
 
       for (Material material : filteredMaterials) {
         ItemStack itemStack = new ItemStack(material);
